@@ -1,4 +1,4 @@
-# desafio-simple-page Roockeaseat
+# Desafio "Página de Receita" Roockeaseat
 
 Projeto academico roockeaseat
 
