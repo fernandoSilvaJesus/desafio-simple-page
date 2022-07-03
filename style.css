@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    font-size: 62.5%;
+    --backgroundPage: #EAEAEA;
+    --backgroundReceita: #FFFFFF;
+    -title: #1B1B1B;
+    -footer: #8F8F8F;
+    -texts: #39393A;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--backgroundPage);
+
+    font-size: 1.6rem;
+    font-weight: 400;
+
+    display: flex;
+
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+main {
+
+    width: 80%;
+    height: 100%;
+    margin: 9rem 2rem;
+    background-color: var(--backgroundReceita);
+    padding: 5rem;
+    border-radius: 1rem;
+}
+
+
+
+
+
+main h1 {
+    margin: 5rem 0;
+    text-align: center;
+    font-size: clamp(1.8rem, 2.8rem, 5vw);
+    font-weight: 700;
+}
+
+
+main figure {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: right;
+}
+
+main figure img {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+main figure figcaption {
+    color: #8F8F8F;
+    font-size: 1.2rem;
+}
+
+main h2 {
+    font-size: clamp(1.8rem, 2.0rem, 5vw);
+
+    text-align: center;
+    margin: 2rem 0;
+}
+
+ul,
+ol {
+    list-style-position: outside;
+    line-height: 2.6rem;
+    padding: 2rem;
+}
+
+ul li,
+ol li {
+    padding-left: 1rem;
+}
+
+
+footer{
+    margin-bottom: 2rem;
+}
